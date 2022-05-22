@@ -66,13 +66,13 @@ function Cards() {
         },
     ]
   return (
-  <div >
+  < >
       <div className="card-title ">You May Also Like</div>
             <div className="box-card   d-flex">
-            <div className="row ">
+            <div className="row mx-0 ">
                     {CardItem.map(card =>
                    
-                     <div className="col-lg-3 " key={card.id}>
+                     <div className="col-lg-3 px-lg-3 px-sm-2 pb-3 px-md-1  " key={card.id}>
                    <Card className="card-width">
                    <Card.Body className=" p-0 m-0">
                        <div className="rolex-div ">
@@ -111,7 +111,7 @@ function Cards() {
                   {/* <img src={Gucci}></img> */}
         
             </div>
-  </div>
+  </>
   );
 }
 

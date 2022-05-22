@@ -1,29 +1,11 @@
-  /* @media only screen and (max-width: 600px) {
-    body {
-      zoom: .4;
-    }
-  } */
-/* 
-  @media only screen and (max-width: 800px) {
-    body {
-      zoom: .6;        
-    }
-  } */
-  /* @media only screen and (min-width: 1000px) {
-    body {
-      zoom: .6;        
-    }
-  } */
-  /* @media only screen and (max-width: 1000px) {
-    body {
-      zoom: 1;
-    }
-  } */
+
 body {
   margin: 0;
 }
 
-
+.web-icon{
+  bottom: 50%;
+}
 .search-icon{
   background-color: white !important;
   border: none !important;
@@ -90,7 +72,7 @@ height: 100px;
 }
 .show-bag{
   top: 681px;
-  width: 740px;
+  width: 100%;
   height: 740px;
 }
 .bag-details{
@@ -334,13 +316,12 @@ font-weight: 500;
 font-size: 16px;
 line-height: 20px;
 text-decoration-line: underline;
-
 color: #3E97EA;
-padding-left: 290px;
+
 }
-.star{
+/* .star{
   padding-left: 100px;
-}
+} */
 /* Menu */
 .quality{
   
@@ -507,4 +488,79 @@ padding-bottom: 3rem;
 .gucci{
   width: 161px;
 height: 214px;
+}
+/* Footer */
+.footer{
+  background: #221F1E !important;
+}
+.footer-start{
+  padding-inline: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.footer-end{
+  padding-left: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer-title{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 37px;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-bottom: 30px;
+
+}
+.sub-tittle-footer{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-decoration: none;
+color: #C4C4C4;
+display: grid;
+margin-bottom: 15px;
+}
+.sub-tittle-footer:hover{
+  color: #ede5e5;
+}
+.hr-footer{
+  color: rgba(237, 237, 237, 0.24);
+}
+.select-location{
+padding: 0px !important;
+font-family: 'Montserrat'!important;
+font-style: normal;
+font-weight: 400 !important;
+font-size: 24px;
+line-height: 29px !important;
+border: none !important;
+color: #FFFFFF !important;
+background: url(../src/assets/images/ChevronDown.png) no-repeat;
+background-position: right;
+
+}
+.end-section{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  
+  color: #C4C4C4;
+}
+.code{
+    
+  color: #C4C4C4;
+}
+.app-store{
+  width: 130px;
+
+}
+.google-play{
+  width: 110px;
 }

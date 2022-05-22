@@ -11,10 +11,9 @@ function HandBagDetail() {
   
   return (
   
-    <>
-    
 
-         <div  className=" col-lg-6    bag-details " >
+    
+<>
              <div className="d-flex price align-items-center ">
                <div className="price1">$2,100</div>
                <div className="price2">$1,900</div>
@@ -40,27 +39,17 @@ function HandBagDetail() {
                <button className="btn-order">Order</button>
                </div>
                
-{/* <div className="btn-group align-items-center" role="group" aria-label="Basic radio toggle button group">
-  <input type="radio" className="btn-check btn-bag" name="btnradio" id="btnradio1" autoComplete="off" defaultChecked />
-  <label className="btn  btn-label" htmlFor="btnradio1">Request to View</label>
 
-  <input type="radio" className="btn-check btn-bag" name="btnradio" id="btnradio2" autoComplete="off" defaultChecked />
-  <label className="btn btn-label" htmlFor="btnradio2">Make an Offer</label>
+          <div className="d-flex">
+              <div >
+                  <img src={Location} alt="location" className="location" />
+              </div>
+              <div className="location-name">
+              Beirut, Lebanon
+              </div>
+          </div>
 
-  <input type="radio" className="btn-check btn-bag"  name="btnradio" id="btnradio3" autoComplete="off"/>
-  <label className="btn  btn-label" htmlFor="btnradio3"><img src={btnbag} alt="bag img"/></label>
-</div>    */}
- <div className="d-flex">
-     <div >
-         <img src={Location} alt="location" className="location" />
-     </div>
-     <div className="location-name">
-     Beirut, Lebanon
-     </div>
- </div>
- </div>
-
-    </>
+          </>
   );
 }
 
