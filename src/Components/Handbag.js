@@ -54,7 +54,7 @@ function Handbag() {
     ]
   return (
   
-    <>
+    <div>
         <div className="louis-title">Louis Vuitton</div>
         <div className="sub-title-louis">Deauville Cloth Handbag</div>
         <div className= " row ps-5 ">
@@ -80,14 +80,15 @@ function Handbag() {
              ></img>      
             </div>
        </div>
-          
-       <HandBagDetail/>
+
+          <HandBagDetail/>
+
 
       
          </div>
          </div>
 
-    </>
+    </div>
   );
 }
 
