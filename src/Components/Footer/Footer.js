@@ -8,7 +8,7 @@ import googleplay from '../../assets/images/googleplay.png'
 function Footer() {
   return (
     <footer className=" footer text-center ">
-    <div className=" footer-start">
+    <div className=" footer-start px-lg-5 px-2">
         
       <div className="row text-start">
         <div className="col-lg-3 col-md-3 mb-4 mb-md-0 ">
@@ -74,7 +74,7 @@ function Footer() {
       </div>
     </div>
   <hr className='hr-footer'/>
-  <div className=" footer-end">
+  <div className=" footer-end ps-lg-5 ps-2">
       <div className='row mx-0'>
           <div className='col-12 col-lg-4 col-md-6 px-0 text-start'>
           <select id="disabledSelect" className="form-select select-location"required>

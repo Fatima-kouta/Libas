@@ -55,32 +55,31 @@ function Handbag() {
   return (
   
     <div>
-        <div className="louis-title">Louis Vuitton</div>
+        <div className="louis-title ">Louis Vuitton</div>
         <div className="sub-title-louis">Deauville Cloth Handbag</div>
-        <div className= " row ps-5 mx-0">
+        <div className= "row">
         {/* <div className=" col-12  col-lg-12 px-0 pt-4 d-flex"> */}
-        <div className="col-lg-6 px-0 d-flex">
-            <div className=" col-lg-2  ">
+        <div className="col-lg-6">
+            <div class="row">
+                <div className="col-xxl-3 col-lg-12 col-md-3 col-12">
+                    <div class="row">
+                    {images.map(img =>
+                    <div className="col-xxl-12 col-lg-4 col-md-12 col-4">
+                                <img src={img.image} alt="bag"
+                                className="bags w-50 "
+                                    key={img.id} />
+                        </div>
+                    )}
+                    </div>
+                </div>
 
-                {images.map(img =>
-                    <div key={img.id}>  
-                            <img src={img.image} alt="bag"
-                            // className="img-fluid "
-                             className="bags pb-3"
-                              ></img>
-
-                     </div>
-                )}
-             </div>
-            <div className="col-lg-10 px-0" >
-            <img src={bag0} alt="bag" 
-            //  className="img-fluid "
-             className="show-bag"
-             
-             ></img>      
+                <div className="col-xxl-9 col-lg-12 col-md-9 col-12" >
+                    <img src={bag0} alt="bag"  className="img-fluid show-bag" />     
+                </div>
             </div>
        </div>
-        <div className="col-lg-6 col-sm-12 px-0 bag-details">
+      
+        <div className="col-lg-6 col-sm-12 bag-details">
           <HandBagDetail/>
           </div>
 

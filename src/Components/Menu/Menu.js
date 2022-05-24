@@ -11,18 +11,23 @@ function Menu() {
      <div className="row d-flex pb-3">
      <div className="quality d-flex align-items-center">
 
-       <div className="col-6 d-flex">
-       <div className="ps-4"> <img src={shield} alt="shield" className="shield"/></div>
-          <div className="menu-txt ps-4 ">Quality Control</div>
-       </div>
-       <div className="col-6">
-       <div className="text-end pe-5"><img src={arrow}alt="arrow" className="arrow"/></div>
+      
+       <div className=" col-lg-2 col-md-2 col-sm-2 ps-4">
+          <img src={shield} alt="shield" className="shield"/>
+          </div>
+          <div className=" col-lg-6 col-md-6 col-sm-6 menu-txt ps-4 ">Quality Control</div>
+      
+       <div className="co-12 col-lg-4 col-sm-4 col-md-4">
+       <div className="text-end pe-5">
+         <img src={arrow}alt="arrow" className="arrow"/>
+        </div>
 
        </div>
      </div>
   
    </div>
-   <div className="row d-flex pb-3">
+
+   {/* <div className="row d-flex pb-3">
      <div className="quality d-flex align-items-center">
 
        <div className="col-6 d-flex">
@@ -35,8 +40,8 @@ function Menu() {
        </div>
      </div>
   
-   </div>
-   <div className="row d-flex">
+   </div> */}
+   {/* <div className="row d-flex">
      <div className="quality d-flex align-items-center">
 
        <div className="col-6 d-flex">
@@ -49,7 +54,7 @@ function Menu() {
        </div>
      </div>
   
-   </div>
+   </div> */}
 </div>
   );
 }

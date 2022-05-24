@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
 }
@@ -30,11 +29,14 @@ color: #808080;
 }
 .link-text{
   font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-/* font-size: 24px; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
-color: #000000;
+  color: #000000;
 }
 
 .link{
@@ -47,7 +49,7 @@ color: #000000;
 
 /* louis  */
 .louis-title{
-
+padding-top: 2.2rem;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
@@ -65,21 +67,26 @@ font-size: 52px;
 line-height: 63px;
 color: #000000;
 text-align: center;
+padding-bottom: 1.8rem;
 }
 .bags{
   width: 100px;
 height: 100px;
 }
 .show-bag{
-  top: 681px;
-  width: 100%;
-  height: 740px;
+  height: 100% !important;
 }
 .bag-details{
-height: 784px;
-/* width: 959px; */
+
 background: rgba(198, 172, 150, 0.32);
 position: relative;
+}
+.price{
+  
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  /* flex-direction: column; */
 }
 .bag-details .price1{
   /* position: absolute;
@@ -94,18 +101,20 @@ font-weight: 700;
 font-size: 40px;
 line-height: 49px;
 text-decoration-line: line-through;
-
 color: #000000;
 }
+.hanbagDetail{
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-right: 20px;
+}
 .bag-details .price2{
-
-
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 29px;
   line-height: 35px;
-  
+  padding-inline: 12px;
   color: #DD0000;
 }
 .bag-details .pourcentage{
@@ -117,15 +126,23 @@ line-height: 20px;
 
 color: #146900;
 }
+.badge-icon{
+  padding-bottom: 28px;
+}
 .estimated{
   font-family: 'Montserrat';
 font-style: normal;
 font-weight: 400;
 font-size: 21px;
 line-height: 26px;
+padding-top: 8px;
+padding-top: 10px;
 
 color: #777777;
 }
+.text-hanbagDetail{
+  display: flex;
+  padding-top: 29px;}
 .badge-txt{
   font-family: 'Montserrat';
 font-style: normal;
@@ -144,32 +161,37 @@ color: #000000;
   color: #97816d !important;
 }
 .bag-details .msg{
-  font-family: 'Montserrat';
+padding-top: 41px;
+font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 24px;
-
 color: #000000;
 width: 182px;
 transform: rotate(-0.28deg);
 }
 .btn-order{
-  /* width: 730px; */
-  height: 96px;
-  background: #000000;
-
+width: 100%;
+height: 96px;
+background: #000000;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 font-size: 45px;
 line-height: 55px;
 color: #FFFFFF;
+margin-top: 20px;
+margin-top: 40px;
 }
 .btn-order:hover{
-  background: #c6ac96;
+  background: #3b3a3a;
   border:none;
 
+}
+.btn-grp{
+  
+  padding-top: 20px;
 }
 .btn-bag{
   width: 240px;
@@ -181,6 +203,41 @@ font-style: normal;
 font-weight: 700;
 font-size: 26px;
 background: #FFFFFF;
+}
+.requestView{
+  background: #FFFFFF;
+  border: none;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 26px;
+color: #000000;
+padding-inline: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 29px;
+}
+.makeOffer{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 32px;
+color: #000000;
+  background: #C6AC96;
+  border: none;
+  padding-inline: 30px;
+  padding-top: 15px;
+  padding-bottom: 18px;
+  margin-right: 22px;
+}
+.btn-store{
+  border: none;
+  background: #FFFFFF;
+  padding-top: 16px;
+  padding-bottom: 9px;
+  padding-inline: 20px;
 }
 .btn-label{
 
@@ -195,10 +252,8 @@ color: #000000;
   background: #C6AC96 !important;
 }
 .location{
-  width: 45px;
-height: 45px;
-/* left: 1112px;
-top: 1313px; */
+display: flex;
+padding-top: 39px;
 }
 .location-name{
   left: 1165px;
@@ -325,10 +380,12 @@ color: #3E97EA;
 /* Menu */
 .quality{
   
-background: #EAEAEA;
-border-radius: 10px;
-width: 675px;
-height: 65px;
+  background: #EAEAEA;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .menu-txt{
   font-family: 'Montserrat';
@@ -494,12 +551,12 @@ height: 214px;
   background: #221F1E !important;
 }
 .footer-start{
-  padding-inline: 100px;
+  /* padding-inline: 100px; */
   padding-top: 80px;
   padding-bottom: 80px;
 }
 .footer-end{
-  padding-left: 100px;
+  /* padding-left: 100px; */
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -563,4 +620,138 @@ background-position: right;
 }
 .google-play{
   width: 110px;
+}
+
+/* Nav */
+
+.Logo-nav{
+  margin: auto;
+}
+.search{
+  position: relative;
+  box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+    
+  }
+
+  .search input{
+
+   height: 60px;
+   text-indent: 25px;
+   border: 2px solid #d6d4d4;
+
+
+  }
+  .search input:focus{
+
+   box-shadow: none;
+   border: 2px solid blue;
+  }
+  .search .fa-search{
+   position: absolute;
+  }
+.input-group-text{
+  background-color: white !important;
+  width: 11%;
+}
+.search-w{
+  width: 415px !important;
+/* border: 1px solid #E3E3E3 !important;
+border-radius: 12px !important; */
+}
+.search-nav{
+  border-left-style:none !important;
+  display: block;
+  width: 390.01px;
+  
+}
+.search-nav::placeholder{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 20px;
+color: #808080;
+}
+.sell-item{
+  background: #C6AC96;
+border-radius: 10px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+border: none;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-inline: 22px;
+}
+.sign-in{
+  text-decoration: none;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+padding-left: 17px;
+color: #000000;
+}
+.shoppoing-bag{
+  width: 33x;
+  padding-left: 17px;
+}
+.navbar{
+  padding-top: 50px !important;
+  padding-bottom: 50px!important;
+background-color: white;
+}
+.navbar-toggler{
+  background-color: black !important;
+}
+
+
+
+
+/* Card */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.row1 {
+  margin: 0 -5px;
+  width: 100%;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+/* Responsive columns */
+@media screen and (max-width: 700px) {
+  .column {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+/* @media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+} */
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 38px;
 }
