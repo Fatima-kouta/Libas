@@ -66,52 +66,56 @@ function Cards() {
         },
     ]
   return (
-  < >
+<>
       <div className="card-title ">You May Also Like</div>
-            <div className="box-card   d-flex">
-            <div className="row mx-0 w-75 ">
-                    {CardItem.map(card =>
-                   
-                     <div className="col-lg-3 col-md-6 px-lg-3 px-sm-2 pb-3 px-md-1  " key={card.id}>
-                   <Card className="card-width">
-                   <Card.Body className=" p-0 m-0">
-                   <div className="row text-center">
+        <div className="row backgroud-card">
+            <div className="col-12">
+        <div className="container-fluid card-container px-5" > 
+        <div className="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-4"> 
+       
+           {CardItem.map(card =>
+            <div className="col a" key={card.id}> 
+                              <div className="card h-100 shadow-sm "> 
+
+                     <div className="row text-center">
                        <div className="col-12 position-relative">
                          <div className="card-image">
                              <img src={card.ItemImage} 
                              alt="rolex "
-                            //  className="img-fluid"
                                className={card.className}
                                />
                                </div>
                                <div className="position-absolute heart">
-                                  <img src={card.heart} alt="heart" />
+                                  <img src={card.heart} alt="heart" className="pe-2" />
                                   <img src={card.bookmark} alt="bookmark" />
                                   </div>
                      </div>
                      </div>
-                      <div className="title2-card ">{card.title2}</div>
-                      <div className="title3-card">{card.titl3}</div>
-                      <div className="title4-card">{card.titl4}</div>
-                      <div className="title5-card d-flex ">
-                        <div>
-                        <img src={card.pin} alt="pin" className="pin"/>
+                   <div className="card-body">
+                    <div className="title2-card ">{card.title2}</div>
+                    <div className="title3-card">{card.titl3}</div>
+                    <div className="title4-card">{card.titl4}</div>
+                    <div className="title5-card d-flex ">
+                      <div>
+                      <img src={card.pin} alt="pin" className="pin"/>
 
+                      </div>
+                      {card.title5}  
+                      </div>
                         </div>
-                        {card.title5}
-                          </div>
-                   </Card.Body>
-                   </Card>
-                   </div>
-               
-                )}
-                    </div>
-        
-        
-                  {/* <img src={Gucci}></img> */}
-        
+                         </div>
+                        </div>
+             
+              )} 
+
             </div>
-  </>
+           </div>
+           
+         
+           </div>
+        </div> 
+  
+        </>
   );
 }
 

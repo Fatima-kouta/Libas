@@ -112,7 +112,7 @@ function Footer() {
             </div>
      */}
         </div>
-        <div className='col-lg-5 d-flex px-0'>
+        <div className='col-lg-3 d-flex px-0'>
             <div>
             <img src={appstore} alt="app-store" className='app-store'/>
 
@@ -121,6 +121,12 @@ function Footer() {
 
             </div>
         </div>
+        {/* <div className='col-lg-3'>
+
+        <img src={googleplay} alt="google-play" className='google-play'/>
+
+        </div> */}
+
       </div>
 
   </div>
