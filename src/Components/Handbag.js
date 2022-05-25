@@ -60,20 +60,20 @@ function Handbag() {
         <div className= "row">
         {/* <div className=" col-12  col-lg-12 px-0 pt-4 d-flex"> */}
         <div className="col-lg-6">
-            <div class="row">
-                <div className="col-xxl-3 col-lg-12 col-md-3 col-12">
-                    <div class="row">
+            <div className="row">
+                <div className="col-xxl-3 col-md-3 col-12">
+                    <div className="row">
                     {images.map(img =>
-                    <div className="col-xxl-12 col-lg-4 col-md-12 col-4">
+                    <div className="col-xxl-12 col-md-12 col-4 ps-sm-5 ps-4 pb-2 "key={img.id} >
                                 <img src={img.image} alt="bag"
-                                className="bags w-50 "
+                                className="bags  "
                                     key={img.id} />
                         </div>
                     )}
                     </div>
                 </div>
 
-                <div className="col-xxl-9 col-lg-12 col-md-9 col-12" >
+                <div className="col-xxl-9  col-md-9 col-12" >
                     <img src={bag0} alt="bag"  className="img-fluid show-bag" />     
                 </div>
             </div>

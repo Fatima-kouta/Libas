@@ -8,8 +8,8 @@ import ShoppingBag from '../assets/images/ShoppingBag.png'
 function NavbarComponent() {
   return (
     <div className="mx-0 px-0">
-<nav class="navbar navbar-expand-lg  ">
-     <div class="navbar-nav  ">
+<nav className="navbar navbar-expand-lg  ">
+     <div className="navbar-nav  ">
           <div className="input-group search-w mb-3">
             <span className="input-group-text" id="basic-addon1">
               <img src={Search} alt="Search" />
@@ -21,19 +21,19 @@ function NavbarComponent() {
       
           </div>
           </div>
-          <div class="navbar-nav mx-auto">
+          <div className="navbar-nav mx-auto">
             
               
               <img src={LibasLogo}/>
               </div>
             
-              <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                  <span class="navbar-toggler-icon"></span>
+              <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                  <span className="navbar-toggler-icon"></span>
                 </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+            <div className="collapse navbar-collapse justify-content-end" id="navbarCollapse">
                   
                   
-                  <div class="navbar-nav align-items-center">
+                  <div className="navbar-nav align-items-center">
                   <button className="sell-item">Sell an Item</button>
                   <Link to="/" className="sign-in">Sign In</Link>
                   <Link to="/" className="sign-in">Sign Up</Link>

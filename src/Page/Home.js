@@ -5,22 +5,22 @@ import Footer from '../Components/Footer/Footer';
 import Handbag from '../Components/Handbag';
 import Section2 from '../Components/Menu/Section2';
 import Navbar from '../Components/NavbarComponent';
-import RouteRow from '../Components/RouteRow';
+import Menu from '../Components/Menu';
 
 
 function Home() {
   return (
  <div className='row mx-0'>
-   <div className='col-12 px-0'>
+   <div className='col-12 ps-0'>
  
      {/* <Navbar/> */}
    
        
      
-        <RouteRow/>
+        <Menu/>
 
        
-        <Handbag/>
+        {/* <Handbag/> */}
         <div className='px-5 pt-5 pb-5'>
 
         <DetailsSeller/>
@@ -28,11 +28,12 @@ function Home() {
         </div>
         <div className='px-5 pt-5 pb-5'>
 
-          <Section2/>
+          {/* <Section2/> */}
 
         </div>
+        {/* <Cards/> */}
         {/* <CardTest/> */}
-          <Footer/>
+          {/* <Footer/> */}
 </div>
         </div>
   );

@@ -36,16 +36,16 @@ function Details() {
   return (
   
     <>
-        <div className="detailsTitle pb-3">Details </div>
-        <div >
+        <div className="detailsTitle pb-4">Details </div>
+      
         {details.map(detail =>
                     <div key={detail.id} className="justify-content-between d-flex ">  
                       
-                      <div className="detailText pb-3">{detail.text}</div>
-                      <div className="detailType pb-3">{detail.type}</div>
+                      <div className="detailText pb-4">{detail.text}</div>
+                      <div className="detailType pb-4">{detail.type}</div>
                      </div>
                 )}
-         </div>
+        
 
     </>
   );
