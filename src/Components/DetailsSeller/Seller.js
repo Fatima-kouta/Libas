@@ -3,6 +3,8 @@ import checkIcon  from '../../assets/images/CheckIcon.png'
 import Vector from '../../assets/images/Vector.png'
 import star from '../../assets/images/star.png'
 import {Link} from 'react-router-dom'
+import { FaStar } from 'react-icons/fa';
+
 function Seller() {
   return (
     <div className=' ps-0 ps-lg-5'>
@@ -34,7 +36,11 @@ function Seller() {
         </div>
         <div className='col-lg-4 col-md-3 col-12 username2 pt-3 pt-md-0 ps-lg-3 pb-3 pb-md-0'>@username00123</div>
         <div className='col-lg-5 col-md-4 col-12  star'> 
-          <img src={star}alt="star"/>
+        <FaStar/>
+        <FaStar/>
+        <FaStar/>
+        <FaStar/>
+        <FaStar/>
         </div>
      
         
@@ -48,7 +54,11 @@ function Seller() {
         </div>
         <div className='col-lg-4 col-md-3 col-12 username2 pt-3 pt-md-0 ps-lg-3 pb-3 pb-md-0'>@username001234</div>
         <div className='col-lg-5 col-md-4 col-12 star'> 
-          <img src={star}alt="star"/>
+        <FaStar/>
+        <FaStar/>
+        <FaStar/>
+        <FaStar/>
+        <FaStar/>
         </div>
      
         

@@ -22,12 +22,12 @@ color: #808080;
 ul {
   list-style-type: none;
 }
-/* Route Row */
+/*menu */
 .row-bg{
   background: #F5F5F5;
   height: auto;
-  padding-top:20px;
-  padding-bottom:20px;
+  padding-top:25px;
+  padding-bottom:25px;
 
 }
 .link-text{
@@ -85,8 +85,18 @@ padding-bottom: 1.8rem;
   width: 100px;
 height: 100px;
 }
+.bags:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 0.1s ease;
+}
 .show-bag{
   height: 100% !important;
+}
+.show-bag:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 0.1s ease;
 }
 .bag-details{
 
@@ -98,14 +108,9 @@ position: relative;
   justify-content: space-between;
   align-items: center;
   display: flex;
-  /* flex-direction: column; */
 }
 .bag-details .price1{
-  /* position: absolute;
-  left: 57.61%;
-right: 35.19%;
-top: 11.93%;
-bottom: 87.19%; */
+
 
 font-family: 'Montserrat';
 font-style: normal;
@@ -198,8 +203,9 @@ margin-top: 20px;
 margin-top: 40px;
 }
 .btn-order:hover{
-  background: #3b3a3a;
+  background: #bca38d;
   border:none;
+  color: black;
 
 }
 .btn-grp{
@@ -209,15 +215,27 @@ margin-top: 40px;
 .btn-bag{
   width: 240px;
 height: 86px;
-/* left: 1116px;
-top: 1186px; */
+
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
 background: #FFFFFF;
 }
+.requestView:hover{
+  background: #C6AC96;
+  color: #000000;
 
+}
+.btn-store:hover{
+  background: #C6AC96;
+  color: #000000;
+
+}
+.makeOffer:hover{
+  background: #bca088;
+  color: white;
+}
 .requestView{
   background: #FFFFFF;
   border: none;
@@ -227,10 +245,10 @@ font-weight: 700;
 font-size: 21px;
 line-height: 26px;
 color: #000000;
+width: 100%;
 padding-inline: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-right: 29px;
 }
 .makeOffer{
   font-family: 'Montserrat';
@@ -238,13 +256,14 @@ font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 32px;
+padding-inline: 30px;
+
 color: #000000;
   background: #C6AC96;
   border: none;
-  padding-inline: 30px;
+  width: 100%;
   padding-top: 15px;
   padding-bottom: 18px;
-  margin-right: 22px;
 }
 .btn-store{
   border: none;
@@ -284,7 +303,6 @@ font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 44px;
-/* identical to box height */
 
 
 color: #000000;
@@ -304,7 +322,6 @@ font-style: normal;
 font-weight: 500;
 font-size: 21px;
 line-height: 26px;
-/* identical to box height */
 
 text-align: right;
 
@@ -358,11 +375,11 @@ border: none;
   border: none;
 }
 .unfollow:hover{
-  background: #c6ac96b9;
-}
+  background: #C6AC96;
+  color: #000000;}
 .contact:hover{
-  background: #0000009e;
-
+  background: #C6AC96;
+  color: #000000;
 }
 .username2{
   font-family: 'Montserrat';
@@ -382,9 +399,7 @@ text-decoration-line: underline;
 color: #3E97EA;
 
 }
-/* .star{
-  padding-left: 100px;
-} */
+
 /* Menu */
 .quality{
   
@@ -452,7 +467,11 @@ line-height: 32px;
 color: #000000;
 border:none;
 }
+.btn-comment:hover{
+  background: #C6AC96;
+  color: #000000;
 
+}
 /* Card */
 .card-title{
   margin: auto;
@@ -475,12 +494,7 @@ padding-top: 130px;
 padding-bottom: 130px;
 justify-content: center;
 }
-/* .card-width{
-  width: fit-content;
-height:fit-content;
-border-radius: 23px;
-padding-inline: 30px;
-} */
+
 .backgroud-card{
 background-color: #F9F9F9;
 }
@@ -512,8 +526,7 @@ background-color: #F9F9F9;
   height: 225px;
   padding-top: 25px;
 }
-/* .bookmark{
-  margin-top: 24px;} */
+
 .title2-card{
   font-family: 'Montserrat';
 font-style: normal;
@@ -569,12 +582,10 @@ height: 214px;
   background: #221F1E !important;
 }
 .footer-start{
-  /* padding-inline: 100px; */
   padding-top: 80px;
   padding-bottom: 80px;
 }
 .footer-end{
-  /* padding-left: 100px; */
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -625,8 +636,11 @@ background-position: right;
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
-  
+  align-items: baseline;
   color: #C4C4C4;
+}
+.end-section:hover{
+  color: #ede5e5;
 }
 .code{
     
@@ -639,7 +653,19 @@ background-position: right;
 .google-play{
   width: 110px;
 }
+.btn-footer{
+  background-color:transparent!important;
+  border: none;
+}
+.social-media{
+  background-color: transparent;
+  width: fit-content;
+  border: none;
+}
+.social-media:hover{
+  background-color: #ede5e5;
 
+}
 /* Nav */
 
 .Logo-nav{
@@ -669,18 +695,24 @@ background-position: right;
   }
 .input-group-text{
   background-color: white !important;
-  width: 11%;
+  border-radius: 12px;
 }
+
 .search-w{
-  width: 415px !important;
-/* border: 1px solid #E3E3E3 !important;
-border-radius: 12px !important; */
+  width: 400px !important;
+
 }
 .search-nav{
   border-left-style:none !important;
   display: block;
-  width: 390.01px;
+  border-radius: 12px;
+  width: 515px;
+  height: 59px;
   
+}
+.search-nav:focus{
+  box-shadow: none !important;
+  border-color: none;
 }
 .search-nav::placeholder{
   font-family: 'Montserrat';
@@ -704,6 +736,9 @@ padding-top: 10px;
 padding-bottom: 10px;
 padding-inline: 22px;
 }
+.sell-item:hover {
+  background: #b5977d;
+}
 .sign-in{
   text-decoration: none;
   font-family: 'Montserrat';
@@ -715,11 +750,20 @@ padding-left: 17px;
 color: #000000;
 }
 .shoppoing-bag{
-  width: 33x;
-  padding-left: 17px;
+ background-color: transparent;
+ border: none;
 }
-.navbar{
+.shoppoing-bag img:hover{
+  border-radius: 20px;
+  border:1px solid#b5977d;
+}
+.navbarheader{
   padding-top: 50px !important;
+  padding-bottom: 50px!important;
+background-color: white;
+}
+
+.menu{
   padding-bottom: 50px!important;
 background-color: white;
 }
@@ -748,4 +792,50 @@ color: #808080;
 }
 /*  */
 
+.navHeader {
+  flex-grow: 0 !important;
+}
 
+.card:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 0.1s ease;
+}
+.sign-in:hover{
+  color: #b5977d;
+
+}
+.modal-nav{
+  width: auto !important;
+padding-right: 20px;
+padding-left: 20px;
+top: 25% !important;
+
+}
+.modal-header{
+  border: none!important;
+}
+.close-btn{
+  background-color: transparent !important;
+  border: none !important;
+  
+}
+.close-btn:hover{
+  background-color: #97816d;
+}
+.modal-content{
+  border-radius: 20px !important;
+}
+.quality:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 0.1s ease;
+}
+/* .modal-backdrop {
+background-color:  transparent !important;
+} */
+.modal-backdrop {
+  position: relative !important;
+
+  background-color: transparent !important;
+}

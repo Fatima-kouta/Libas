@@ -61,15 +61,19 @@ function HandBagDetail() {
                 </div>
               </div>
              
-          
-                  
-                    <div className="btn-grp">
-                
-                  <button className="requestView mb-3 mb-sm-0">Request to View</button>
-                 <button className="makeOffer mb-3 mb-sm-0">Make an Offer</button>
-                  <button className="btn-store mb-3 mb-sm-3 mb-md-0"><img src={btnbag}alt="store"/></button>
-
+          <div className="justify-content-between flex-wrap pt-4 d-flex">
+            <div>
+            <button className="requestView mb-3 mb-sm-0">Request to View</button>
+            </div>
+            <div>
+            <button className="makeOffer mb-3 mb-sm-0">Make an Offer</button>
               </div>
+              <div>
+              <button className="btn-store mb-3 mb-sm-3 mb-md-0"><img src={btnbag}alt="store"/></button>
+              </div>
+          </div>
+                  
+                
                    
 
                 
@@ -78,7 +82,7 @@ function HandBagDetail() {
                 <div className="col-auto">
                   <img src={Location} alt="location" className="location-img" />
                 </div>
-                <div className="col-10 location-name">
+                <div className="col-10 location-name pt-2">
                   Beirut, Lebanon
                 </div>
               </div>

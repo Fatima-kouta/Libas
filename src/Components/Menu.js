@@ -6,22 +6,8 @@ import { CgMenu } from 'react-icons/cg';
 
 function Menu() {
   return (
-
-<div className="row">
-  <div className="col-12">
-  <nav className="navbar navbar-expand-lg row-bg ">
-    
-    
-          
-    <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                   
-                   <CgMenu/>
-                   Menu
-                   </button>
-    
-          
-                <div className="row collapse navbar-collapse " id="navbarCollapse">
-                      
+            <div className="row">
+              <div className="col-12 menu">
                 <div className="row-bg ">
     
                     <div className="row d-flex text-center link-text  mx-0 px-0">
@@ -42,11 +28,9 @@ function Menu() {
                     </div>
                     
                   </div>
+                  </div>
             
-          </nav>
-    
-  </div>
-</div>
+        
 
 
   );
