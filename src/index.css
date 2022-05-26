@@ -515,13 +515,52 @@ background-color: #F9F9F9;
   padding-top: 13px;
   height: 220px;
 }
-
+.paperplane{
+  background-image: url(./assets/images/paperplane.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+}
+.share{
+  background-image: url(./assets/images/share.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+}
+.icons-card{
+  top: 30px;
+  right: 0;
+  align-items: center;
+  padding-right: 35px;
+}
 .heart{
   top: 0;
   right: 0;
   padding-right: 39px;
   padding-top: 40px;
+  background-image: url(./assets/images/heart.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: none;
 }
+.heart:focus{
+  background-image: url(./assets/images/RedHeart.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+}
+.bookmark{
+  background-image: url(./assets/images/bookmark.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+}
+
 .card-image{
   height: 225px;
   padding-top: 25px;
@@ -839,3 +878,14 @@ background-color:  transparent !important;
 
   background-color: transparent !important;
 }
+.btn{
+  background-color: transparent;
+  border: none;
+}
+.btn:hover{
+border: 0px;
+}
+.btn:focus{
+  border: 0px;
+  
+  }

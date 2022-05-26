@@ -73,13 +73,23 @@ function Handbag() {
                 <div className="col-xxl-9  col-md-9 col-12 position-relative" >
                     <img src={bag0} alt="bag"  className="img-fluid show-bag" />    
                     <div className="position-absolute handbag-heart">
-                        <img src={heart} alt="heart"/>
+                       <button className="heart"/>
                     </div> 
                     <div className="position-absolute handbag-icons">
-                
-                    <img src={paperplane} alt="paperplane"  className="me-md-5 me-3" />  
-                    <img src={share} alt="share"  className="me-md-3 me-2" />  
-                    <img src={bookmark} alt="bookmark"  className="ms-3" />  
+
+                        <button className="btn pe-md-3 ">
+                        <img src={paperplane} alt="paperplane"   />  
+                        </button>
+
+                        <button className="btn pe-md-3">
+                        <img src={share} alt="share"   />  
+                        </button>
+
+                        <button className="btn ms-3">
+                        <img src={bookmark} alt="bookmark"   />  
+                        </button>
+                  
+                  
                   
                     </div>
                 </div>

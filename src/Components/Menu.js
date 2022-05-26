@@ -1,8 +1,6 @@
 import React from "react";
 import { Link} from "react-router-dom";
 
-import { CgMenu } from 'react-icons/cg';
-
 
 function Menu() {
   return (

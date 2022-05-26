@@ -85,10 +85,15 @@ function Cards() {
                                className={card.className}
                                />
                                </div>
-                               <div className="position-absolute heart">
-                                  <img src={card.heart} alt="heart" className="pe-2" />
+                               <div className="position-absolute icons-card d-flex">
+                                 <div>
+                               <button className="heart me-2"/>
+                              </div>
+                                  <button className="btn px-0">
                                   <img src={card.bookmark} alt="bookmark" />
+                                  </button>
                                   </div>
+                                 
                      </div>
                      </div>
                    <div className="card-body">
