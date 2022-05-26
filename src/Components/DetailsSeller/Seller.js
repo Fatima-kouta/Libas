@@ -1,7 +1,6 @@
 import ellipse1 from '../../assets/images/Ellipse1.png'
 import checkIcon  from '../../assets/images/CheckIcon.png'
 import Vector from '../../assets/images/Vector.png'
-import star from '../../assets/images/star.png'
 import {Link} from 'react-router-dom'
 import { FaStar } from 'react-icons/fa';
 

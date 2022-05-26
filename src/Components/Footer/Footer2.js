@@ -21,7 +21,7 @@ function Footer2() {
               <img src={pngfooter2} alt="footer-image"/>
             </div>
         </div>
-        <div className='d-flex justify-content-between pb-5'>
+        <div className='d-flex justify-content-between pb-5 flex-wrap'>
             <div className='date'> Lebanon-UAE-USA-Canada</div>
             <div className='date'>
                 2022 - Libas LLC 

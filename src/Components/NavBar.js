@@ -1,6 +1,5 @@
 
 import React from "react";
-import search from '../assets/images/search.svg'
 import LibasLogo from '../assets/images/LibasLogo.svg'
 import Search from '../assets/images/Search.png'
 import { AiOutlineMenuUnfold } from 'react-icons/ai';
