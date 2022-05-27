@@ -515,20 +515,7 @@ background-color: #F9F9F9;
   padding-top: 13px;
   height: 220px;
 }
-.paperplane{
-  background-image: url(./assets/images/paperplane.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: transparent;
-  border: none;
-}
-.share{
-  background-image: url(./assets/images/share.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: transparent;
-  border: none;
-}
+
 .icons-card{
   top: 30px;
   right: 0;
@@ -548,13 +535,6 @@ background-color: #F9F9F9;
 }
 .heart:focus{
   background-image: url(./assets/images/RedHeart.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: transparent;
-  border: none;
-}
-.bookmark{
-  background-image: url(./assets/images/bookmark.png);
   background-repeat: no-repeat;
   background-position: center;
   background-color: transparent;
